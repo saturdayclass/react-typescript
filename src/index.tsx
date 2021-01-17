@@ -1,10 +1,11 @@
 import ReactDOM from 'react-dom';
-import SearchUser from './state/SearchUser';
+import SearchUser from './classes/SearchUser';
 
 const App = () => {
+  const listUser = [{ name: 'Raihan', age: 20 }];
   return (
     <div>
-      <SearchUser />
+      <SearchUser users={listUser} />
     </div>
   );
 };
