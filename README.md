@@ -2,14 +2,26 @@
 
 This is repository for learning React with Typescript. You can check list lecture inside folder src
 
-## Available Scripts
+## How to use
 
-In the project directory, you can run:
+First, clone this repository. It's up to you to fork or clone directly.
 
-### `npm start`
+Note: If you use vsc(visual studio code) for text editor, make sure your vsc has the same typescript version as the typescript version in this project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+git clone https://github.com/raihan-muhammad/react-typescript.git
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Second, in the project directory, you can run this command for downloaded dependencies needed.
+
+```
+npm install
+```
+
+Finally, run start command
+
+```
+npm start
+```
+
+Thanks for reading, Keep the spirit of learning 🔥
