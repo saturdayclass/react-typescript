@@ -13,6 +13,12 @@ export const Child = ({ color, onClick }: ChildProps) => {
 };
 
 // Another way to use typescript in props
-export const ChildFC: React.FC<ChildProps> = ({ color }) => {
-  return <div>{color}</div>;
+// When we added React.FC we can added childern component
+export const ChildFC: React.FC<ChildProps> = ({ color, children }) => {
+  return (
+    <div>
+      {color}
+      {children}
+    </div>
+  );
 };
