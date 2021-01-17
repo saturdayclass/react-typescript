@@ -6,11 +6,13 @@ This is repository for learning React with Typescript. You can check list lectur
 
 First, clone this repository. It's up to you to fork or clone directly.
 
-Note: If you use vsc(visual studio code) for text editor, make sure your vsc has the same typescript version as the typescript version in this project.
-
 ```
 git clone https://github.com/raihan-muhammad/react-typescript.git
 ```
+
+Note: If you use vsc(visual studio code) for text editor, make sure your vsc has the same typescript version as the typescript version in this project.
+
+<hr>
 
 Second, in the project directory, you can run this command for downloaded dependencies needed.
 
